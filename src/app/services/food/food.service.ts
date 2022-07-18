@@ -17,7 +17,7 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
         star: 4.5,
-        imageUrl: 'assets/images/food-1.jpg',
+        imageUrl: 'assets/food-1.jpg',
         tags: ['FastFood', 'Pizza', 'Lunch'],
       },
       {
@@ -28,7 +28,7 @@ export class FoodService {
         favorite: false,
         origins: ['india', 'china'],
         star: 5.0,
-        imageUrl: 'assets/images/food-2.jpg',
+        imageUrl: 'assets/food-2.jpg',
         tags: ['SlowFood', 'Soup'],
       },
       {
@@ -39,7 +39,7 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
         star: 4.5,
-        imageUrl: 'assets/images/food-3.jpg',
+        imageUrl: 'assets/food-3.jpg',
         tags: ['FastFood', 'Pizza', 'Lunch'],
       },
       {
@@ -49,8 +49,8 @@ export class FoodService {
         cookTime: '10-20',
         favorite: false,
         origins: ['italy'],
-        star: 4.5,
-        imageUrl: 'assets/images/food-4.jpg',
+        star: 3.5,
+        imageUrl: 'assets/food-4.jpg',
         tags: ['FastFood', 'Fry', 'Lunch'],
       },
       {
@@ -61,7 +61,7 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
         star: 4.5,
-        imageUrl: 'assets/images/food-5.jpg',
+        imageUrl: 'assets/food-5.jpg',
         tags: ['FastFood', 'Pizza', 'Lunch'],
       },
       {
@@ -72,7 +72,7 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
         star: 4.5,
-        imageUrl: 'assets/images/food-6.jpg',
+        imageUrl: 'assets/food-6.jpg',
         tags: ['FastFood', 'Pizza', 'Lunch'],
       },
       {
@@ -82,8 +82,19 @@ export class FoodService {
         cookTime: '15-30',
         favorite: true,
         origins: ['VN'],
+        star: 4,
+        imageUrl: 'assets/food-7.jpg',
+        tags: ['FastFood', 'Pizza', 'Lunch'],
+      },
+      {
+        id: 8,
+        name: 'Bruh',
+        price: 10,
+        cookTime: '15-30',
+        favorite: true,
+        origins: ['VN'],
         star: 4.5,
-        imageUrl: 'assets/images/food-7.jpg',
+        imageUrl: 'assets/food-8.jpg',
         tags: ['FastFood', 'Pizza', 'Lunch'],
       },
     ];
