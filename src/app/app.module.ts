@@ -7,11 +7,15 @@ import { RatingModule } from 'ng-starrating';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { SearchComponent } from './search/search.component';
 
-const routes: Routes = [{ path: '', component: HomeComponent }];
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'search/:searchItem', component: HomeComponent },
+];
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, SearchComponent],
   imports: [
     BrowserModule,
     RatingModule,
