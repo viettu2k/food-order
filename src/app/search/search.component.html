@@ -3,6 +3,7 @@
     type="text"
     placeholder="Search Food from Food Oder"
     [(ngModel)]="searchItem"
+    (change)="search()"
     [value]="searchItem"
   />
   <button (click)="search()">Search Food</button>
