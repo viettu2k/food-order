@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
+import { TagsComponent } from './tags/tags.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,7 +17,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, SearchComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, SearchComponent, TagsComponent],
   imports: [
     BrowserModule,
     RatingModule,
