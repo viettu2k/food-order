@@ -8,6 +8,10 @@ import { Food } from 'src/app/shared/models/food';
 export class FoodService {
   constructor() {}
 
+  getFoodById(id: number): Food {
+    return this.getAll().find((food) => food.id === id)!;
+  }
+
   getAllTag(): Tag[] {
     return [
       { name: 'All', count: 14 },
