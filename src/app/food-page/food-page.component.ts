@@ -17,7 +17,7 @@ export class FoodPageComponent implements OnInit {
   ) {
     activatedRoute.params.subscribe((params) => {
       if (params['id']) {
-        this.food = foodService.getFoodById(params['id']);
+        this.food = this.foodService.getFoodById(parseInt(params['id']));
       }
     });
   }
