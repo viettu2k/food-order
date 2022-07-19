@@ -37,7 +37,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl: 'assets/food-1.jpg',
-        tags: ['FastFood', 'Pizza', 'Lunch'],
+        tags: ['FastFood', 'Pizza'],
       },
       {
         id: 2,
@@ -59,7 +59,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl: 'assets/food-3.jpg',
-        tags: ['FastFood', 'Pizza', 'Lunch'],
+        tags: ['FastFood', 'Pizza', 'Fry'],
       },
       {
         id: 4,
@@ -114,7 +114,7 @@ export class FoodService {
         origins: ['VN'],
         star: 4.5,
         imageUrl: 'assets/food-8.jpg',
-        tags: ['FastFood', 'Pizza', 'Lunch'],
+        tags: ['SlowFood', 'Pizza', 'Lunch'],
       },
     ];
   }
