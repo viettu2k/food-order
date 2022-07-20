@@ -11,6 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodPageComponent } from './food-page/food-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'tag/:tag', component: HomeComponent },
   { path: 'food/:id', component: FoodPageComponent },
   { path: 'cart-page', component: CartPageComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
@@ -29,6 +31,7 @@ const routes: Routes = [
     TagsComponent,
     CartPageComponent,
     FoodPageComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
