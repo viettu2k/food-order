@@ -9,6 +9,7 @@ import { CartItem } from '../shared/models/cartItem';
 export class CartService {
   private cart: Cart = new Cart();
   constructor() {}
+
   addToCart(food: Food): void {
     let cartItem = this.cart.items.find((item) => item.food.id === food.id);
     if (cartItem) {

@@ -1,6 +1,6 @@
 import { CartItem } from './cartItem';
 export class Cart {
-  items!: CartItem[];
+  items: CartItem[] = [];
 
   get totalPrice(): number {
     let totalPrice = 0;
