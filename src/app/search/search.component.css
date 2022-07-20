@@ -26,6 +26,7 @@ div button {
   opacity: 0.8;
   cursor: pointer;
   outline: none;
+  font-weight: bold;
 }
 
 div button:hover {
